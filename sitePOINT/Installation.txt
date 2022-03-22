@@ -1,0 +1,8 @@
+Je suppose que tout le monde utilise XAMPP.
+
+Du coup installez le site dans C:\xampp\htdocs\ (vous avez juste a extraire l'archive)
+
+Ensuite dans le moteur de recherche, tappez http://localhost/sitePOINT/
+
+Comme j'utilse le php juste pour générer du html et pas pour faire des requêtes sur une bd,
+il y a pas de variable a changer.

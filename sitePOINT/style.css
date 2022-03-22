@@ -1,0 +1,109 @@
+/*Elements relatifs au site en général*/
+html {
+	background: url(./img/img_bg_robot_1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	height: 100%;
+	font-family: Verdana, sans-serif;
+}
+
+
+
+/*Elements relatifs a la navbar*/
+ul {
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	background-color: #bdbdbd;
+	height: 100%; /* Pour voir la barre sur toute la page et pas juste s'arrêter quand il n'y a plus de cases a afficher*/
+	position: fixed; /* Fait que sa bouge pas quand on scroll */
+	overflow: auto; /*Permet de scoller quand on a trop de texte*/
+  }
+
+li {
+	  display: inline;
+	  text-align: center;
+}
+
+li a {
+	display: block;
+	color: #000;
+	padding: 8px 16px;
+	text-decoration: none;
+}
+  
+/*change la couleur si on est dessus*/
+li a:hover {
+	background-color: #555;
+	color: #ffffff;
+}
+
+.selection{
+	background-color: rgb(140, 180, 212);
+}
+
+
+
+/*Elements relatifs au contenu des pages site*/
+.contenu {
+	margin-left: 210px;
+}
+
+.contenu div {
+	margin-top: 1.5%;
+	background-color: rgba(211, 211, 211, 0.8);
+	padding: 0.5% 0.5% 0.5% 0.5%;
+	border-radius: 25px;
+	box-shadow: rgb(102,102,102) 0px 1.5px 2px;
+}
+
+div {
+	display: block;
+	overflow: auto; /*Permet d'adapter la taille du div quand on met une image a droite ou a gauche*/
+}
+
+
+
+/*Elements relatifs aux images*/
+#divlogo {
+	all: unset;
+	background-color:#000000;
+	display:inline-block;
+	width: 100%;
+}
+
+#divlogo img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+/*C'est juste une idée générale, on changera probablement les valeurs quand on aura les vraies images*/
+.imgCenter {
+	width: 25%;
+	height: auto;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-top: 1.5%;
+	border: 2px solid #000;
+	transition: 2s; /*De faire la transition entre la grande et la petite image en 2 secondes*/
+}
+
+.imgCenter:hover {
+	width: 75%;
+}
+
+/*C'est juste une idée générale, on changera probablement les valeurs quand on aura les vraies images*/
+.imgDroite {
+	float: right;
+	width: 25%;
+	height: auto;
+	/*
+	display: block;
+    margin-left: auto;
+	margin-top: 1.5%;
+	border: 2px solid #000;
+	transition: 2s; De faire la transition entre la grande et la petite image en 2 secondes*/
+}
